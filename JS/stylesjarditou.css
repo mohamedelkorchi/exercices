@@ -1,0 +1,119 @@
+/*.......................*/
+/*..........CSS..........*/
+/*.......................*/
+
+
+nav {
+background-color: black; width: 100%;
+padding: 20px 20px 20px 20px;
+margin: 0px; margin-top: 27px;
+width: auto;
+}
+
+#mention {
+
+    margin-top: 0px;
+}
+
+#titre {
+margin-left: 800px; font-size: 22pt;
+ margin-bottom: 10px;
+ padding-top: 30px;
+    
+}
+
+a {
+
+    color: white;
+}
+
+#logojarditou {
+height: 90px; width: 300px; 
+float: left;
+}
+
+.colone {
+background-color: rgb(212, 209, 209);
+float: right;
+width: 550px;
+height: auto;
+margin-top: 0px; margin-bottom: 3px;
+}
+
+#background {
+display: flex;
+flex-direction: row-reverse;
+/*justify-content: flex-end;*/
+justify-content: space-between;
+
+}
+
+
+/*.......................*/
+/*.......RESPONSIVE......*/
+/*.......................*/
+
+
+@media screen and (max-width: 768px) 
+{ 
+    .colone{
+        display: none;
+    }
+    #background{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logojarditou {
+        height: 4.625rem; width: 14.75rem;
+    
+        }
+
+     #titre {
+             margin-left: 18rem; font-size: 15pt;
+             margin-bottom: 1.5rem;
+             padding-top: 1.5rem;
+                
+            }
+ 
+    h4 {
+        font-size: 11pt;
+    }
+
+    p {
+        font-size: 10pt;
+    }
+
+
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

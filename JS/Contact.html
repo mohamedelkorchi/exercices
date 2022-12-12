@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire js</title>
+    <link rel="stylesheet" href="stylesjarditou.css">
+</head>
+
+<body>
+
+
+    <img src="jarditou_logo.jpg" alt="logo jarditou" width="215" height="90" id="logojarditou">
+    <p id="titre">Tout le jardin</p>
+
+    <nav>
+        <li>
+            <a href="index.html" title="accueil">Accueil</a>
+            <a href="Tableau.html" title="tableau">Tableau</a>
+            <a href="Contact.html" title="contact">Contact</a>
+        </li>
+    </nav>
+    <br>
+    <img src="promotion.jpg" alt="promotion" width="100%" height="200">
+
+
+    <div id="background">
+        <p class="colone">{COLONE DROITE}</p>
+
+        <div class="texte">
+
+            <form action="http://bienvu.net/script.php" method="get" id="formulaire">
+
+                <p> * Ces zones sont obligatoires </p>
+                <fieldset>
+                    <legend> Vos coordonnées</legend>
+                    <label for="nom"> Nom* : </label> <input type="text" name="nom" id="nom"> <br>
+                    <span id="erreurNom"></span>
+                    <br>
+                    <label for="prenom"> Prenom* : </label> <input type="text" name="prenom" id="prenom"><br>
+                    <span id="erreurPrenom"></span>
+                    <br>
+                    <label for="sexe"> Sexe* :</label> <input type="radio" name="sexe" value="feminin" id="feminin">Fémnin <!-- mettre le meme name pour cliquer que sur 1 choix -->
+                    <input type="radio" name="sexe" value="masculin" id="masculin"> Masculin
+                    <br>
+                    <span id="erreurSexe"></span>
+                    <br>
+                    <label for="ddn"> Date de naissance* :</label> <input type="date" name="ddn" id="ddn"> <br>
+                    <span id="erreurDdn"></span>
+                    <br>
+                    <label for="cp"> Code postal* : </label><input type="text" name="cp" id="cp"><br>
+                    <Span id="erreurCp" ></Span>
+                    <br>
+                    <label for="adresse"> Adresse : </label><input type="text" name="adresse" id="adresse"><br>
+                    <!-- <span id="erreurAdresse"></span> -->
+                    
+                    <label for="ville"> Ville : </label><input type="text" name="ville" id="ville"><br>
+                    <!-- <span id="erreurVille"><span> -->
+                    
+                    <label for="email"> Email* : </label><input type="text" name="email" id="email"
+                        placeholder="dave.loper@afpa.fr">
+                        <br>
+                        <span id="erreurMail"></span>
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend> Votre demande </legend>
+                    <label for="sujet"> Sujet* :</label>
+                    <select id="sujet">
+                        <option value="selectionner" disabled selected> Veuillez séléctionner un sujet</option>
+                        <option value="commandes"> Mes commandes</option>
+                        <option value="question"> Question sur un produit </option>
+                        <option value="reclamation"> Réclamation</option>
+                        <option value="autres"> Autres </option>
+                       
+                    </select> <br>
+                    <span id="erreurSujet"></span>
+                    <br>
+                    <label for="question"> Votre question* :</label><textarea name="question" id="question" rows="2"
+                        cols="20"></textarea>
+                        <br>
+                        <span id="erreurQuestion"></span>
+                </fieldset><br>
+                <br>
+                <input type="checkbox" name="accepter" id="accepter"> * J'accepte le traitement informatique de ce
+                formulaire
+                <br>
+                <span id="erreurAccepter"></span>
+                <br><br>
+                <input type="submit" value="Envoyer"> <input type="reset" value="Annuler">
+        </div>
+    </div>
+
+    <footer>
+        <nav id="mention">
+            <li>
+                <a href="" title="mention légales">Mention légales</a>
+                <a href="" title="horaires">Horaires</a>
+                <a href="" title="plan du site">Plan du site</a>
+            </li>
+        </nav>
+    </footer>
+<script src="formulaire.js"></script>
+</body>
+
+</html>
