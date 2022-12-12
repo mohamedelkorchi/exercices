@@ -77,7 +77,7 @@ if (isset($_FILES["imageUpload"])) {
     $requete->execute();
 
     // Libération de la requête (utile pour lancer d'autres requêtes par la suite) :
-    $requete->closeCursor();
+    $requete->closeCursor(); 
 
 
 // Gestion des erreurs
