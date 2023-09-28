@@ -55,7 +55,7 @@
                 data-aos-offset="0"
                 data-aos-delay="50"
                 data-aos-duration="1000"
-                data-aos-once="false">Concepteur Développeur D'application</h2> 
+                data-aos-once="false">Concepteur Développeur D'applications</h2> 
 
             <div class="container">
                 <div class="row presentation">
@@ -172,7 +172,7 @@
 
                     <div class="data">
                         <div class="counter-value" data-count="2">0</div>
-                        <span>Projet</span>
+                        <span>Projets</span>
                     </div>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                 data-aos-delay="50"
                 data-aos-duration="1000"
                 data-aos-once="false">
-                <h4>Concepteur Developpeur d'Application</h4>
+                <h4>Concepteur Developpeur d'Applications</h4>
                 <h6>2021-en cours</h6>
                 <p>Réalisation d'un projet ou nous devons mettre en place la conception pour le client,
                     développer son application en toute sécurité et respect du cahier des charges.
