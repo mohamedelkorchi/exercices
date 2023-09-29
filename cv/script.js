@@ -18,19 +18,16 @@ window.addEventListener('scroll', function(){
 
 var typed = new Typed('.typed', {
     strings: ["Je me présente Mohamed El korchi.", 
-    "Actuellement en cours de formation CDA (\
-        Concepteur Développeur d'Application,\
-        NIVEAU BAC+4 ) à l'AFPA."," <br> Je suis à la \
-        recherche d'un stage au sein d'une \
-        entreprise qui pourrait m'apprendre le métier\
-        de développeur pour approfondir mes\
-        compétences et de nouveaux langages. <br>\
-        Le but étant de valider ma formation,\
-        apprendre en entreprise avec des\
-        développeurs compétent pour devenir assez\
-        autonome et postuler pour un CDI"],
-    typeSpeed: 50,
-    backSpeed: 80,
+    "Suite à l'obtention du CDA ( Concepteur Développeur d'Applications, <br>\
+        NIVEAU BAC+3/4 ) à l'AFPA d'Amiens."," Admis en Pré-MSC chez EPITECH Paris, \
+        je souhaiterais apprendre la cybersécurité en ayant aucune expérience,\
+        c'est pour cela que je suis à la recherche d'une entreprise qui pourrait\
+        me former à partir de Janvier 2024. <br>\
+        Fréquence 3 jours entreprise par semaine.\
+        Motivé et prêt à apprendre énormement avec vous "],
+
+    typeSpeed: 70,
+    backSpeed: 40,
     //smartBackspace:true, // this is a default
     loop: false
     
