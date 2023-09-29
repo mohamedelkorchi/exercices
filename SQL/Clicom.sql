@@ -3,7 +3,7 @@ DROP DATABASE IF EXISTS clicom;
 create database clicom;
 
 use clicom;
-
+ 
 create table client (
 cli_num int primary key,
 cli_nom varchar(50),
